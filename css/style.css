@@ -482,12 +482,11 @@ pre {
   margin-left: -15px; }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0; }
+  margin-right: 1rem;
+  margin-left: 1rem; }
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0; }
+    padding: 1rem; }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
@@ -8735,7 +8734,7 @@ h1, h2, h3, h4, h5,
     color: #000000; }
 
 .ftco-partner {
-  padding: 4em 0 !important; }
+  }
   .ftco-partner .partner {
     display: block;
     padding: 0 20px; }
@@ -9061,7 +9060,7 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0 3em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9079,7 +9078,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 5em 0 2em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9368,7 +9367,9 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
-  color: #1a1a1a; }
+  color: #1a1a1a; 
+  overflow-wrap: break-word;
+}
 
 .contact-section .box {
   width: 100%;
